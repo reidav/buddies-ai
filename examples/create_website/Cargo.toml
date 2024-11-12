@@ -1,0 +1,9 @@
+[package]
+name = "create_website"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+buddies_ai = { path = "../../lib" }
+tokio = { version = "1.41.1", features = ["full"] }
+dotenv = "0.15.0"

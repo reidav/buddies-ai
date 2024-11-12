@@ -1,0 +1,15 @@
+[package]
+name = "buddies_ai"
+version = "0.1.0"
+edition = "2021"
+description = "Another multi-agent systems using rust for educational purpose."
+authors = ['David Rei']
+license = "MIT"
+
+[dependencies]
+async-openai = "0.25.0"
+envy = "0.4.2"
+reqwest = "0.12.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.132"
+yaml-rust = "0.4.5"

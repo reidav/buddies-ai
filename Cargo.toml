@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "lib",
+    "examples/create_website"
+]
+resolver = "2"
